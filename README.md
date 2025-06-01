@@ -16,8 +16,6 @@ It supports ResNet architectures, warm-up and cosine learning rate scheduling, T
 - **Flexible Inference**: Prediction script supports both single image and batch folder inference.
 - **Command-Line Configuration**: All major training parameters (batch size, learning rate, model type, etc.) can be controlled via CLI arguments.
 
----
-
 ## 2. Project Structure
 
 The project is organized as follows:
@@ -41,8 +39,6 @@ image-classification-framework/
 └── README.md          
 ```
 
----
-
 ## 3. Installation
 
 Clone this repository and install the required dependencies:
@@ -53,8 +49,6 @@ cd image-classification-framework
 pip install -r requirements.txt
 ```
 Make sure you are using Python ≥ 3.8 and a CUDA-compatible environment if GPU training is required.
-
----
 
 ## 4. Quick Start
 
@@ -92,8 +86,6 @@ python predict.py \
 
 The script will print predicted class names and their confidence scores to the console.
 
----
-
 ## 5. Dataset Structure
 
 The training dataset should follow the folder-based structure accepted by `torchvision.datasets.ImageFolder`, as shown below:
@@ -113,8 +105,13 @@ train_img/
 * Each subdirectory name (`class_1`, `class_2`, ...) will be treated as the class label.
 * All images inside a class folder will be used as training/validation data.
 
----
-
 ## 6. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔍 Keywords
+
+PyTorch image classification, ResNet-based CNN training, deep learning starter project, beginner-friendly machine learning, torchvision dataset loader, command-line training, modular framework for computer vision, TensorBoard visualization, model checkpointing.
+

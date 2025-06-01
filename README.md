@@ -44,7 +44,7 @@ image-classification-framework/
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your_username/image-classification-framework.git
+git clone https://github.com/ZhuoxuanCao/torch-image-classifier.git
 cd image-classification-framework
 pip install -r requirements.txt
 ```

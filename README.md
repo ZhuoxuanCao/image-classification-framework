@@ -1,7 +1,7 @@
 # Torch Image Classification Framework
 
-A modular and extensible image classification training framework built with PyTorch.  
-This project supports flexible model configuration, standardized training and evaluation routines, and is suitable for a variety of traditional classification tasks such as object type, color, or surface condition recognition.
+A beginner-friendly and extensible image classification framework built with PyTorch.
+It supports ResNet architectures, warm-up and cosine learning rate scheduling, TensorBoard visualization, and command-line configurability. Ideal for learners and practitioners working on traditional classification tasks with custom datasets.
 
 ---
 

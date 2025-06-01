@@ -1,6 +1,7 @@
 # Torch Image Classification Framework
 
 A beginner-friendly and extensible image classification framework built with PyTorch.
+
 It supports ResNet architectures, warm-up and cosine learning rate scheduling, TensorBoard visualization, and command-line configurability. Ideal for learners and practitioners working on traditional classification tasks with custom datasets.
 
 ---

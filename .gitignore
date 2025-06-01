@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# IDE
+.idea/
+
+# TensorBoard logs
+log_dir/
+
+# Model checkpoints (optional)
+checkpoints/
+
+# Local data (optional)
+image_train/
+image_test/
